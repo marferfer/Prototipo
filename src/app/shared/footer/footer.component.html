@@ -1,0 +1,44 @@
+<footer class="footer">
+    <!--<div class="container">
+        <div class="row">
+            <nav class="footer-nav col-lg-2 col-md-6 col-sm-12 col-xs-12">
+                <ul>
+                    <li></li>
+               
+                </ul>
+            </nav>
+            <nav class="footer-nav col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                <ul>
+                    <li><a [routerLink]="['/landing']">CON QUE EMPRESAS TRABAJAMOS</a></li>
+                </ul>
+                <ul>
+                    <li><a [routerLink]="['/landing']">QUIENES SOMOS</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-nav col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <ul>
+                    <li><a [routerLink]="['/landing']">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>-->
+    <!-- Footer -->
+    <div class="container">
+        <div class="row">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a [routerLink]="['/dashboard']">Administración</a></li>
+                <!--   <li><a href="http://blog.creative-tim.com">Portfolio</a></li>-->
+                    <li><a [routerLink]="['/profile']">Quienes somos</a></li>
+                    <li><a href="#">Licencias</a></li>
+                </ul>
+            </nav>
+            <div class="credits ml-auto">
+                <span class="copyright">
+                    © {{test | date: 'yyyy'}}, hecho con <i class="fa fa-heart heart"></i> por Mario Fernández
+                </span>
+            </div>
+        </div>
+    </div>
+    
+</footer>
